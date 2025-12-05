@@ -1,0 +1,44 @@
+# Build outputs
+build/
+cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+
+# Build artifacts
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.d
+*.su
+
+# IDE specific
+.vscode/*
+!.vscode/settings.json
+!.vscode/c_cpp_properties.json
+.idea/
+*.swp
+*.swo
+*~
+
+# STM32CubeIDE settings
+.settings/
+!.settings/bundles-lock.store.json
+!.settings/bundles.store.json
+!.settings/ide.store.json
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# OS specific
+.DS_Store
+Thumbs.db
