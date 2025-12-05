@@ -1,6 +1,6 @@
 # STM32F103C8T6 项目
 
-![License](https://img.shields.io/badge/license-ST-blue)
+![License](https://img.shields.io/badge/license-MIT-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey)
 ![MCU](https://img.shields.io/badge/MCU-STM32F103C8T6-green)
 ![Build](https://img.shields.io/badge/build-CMake-orange)
@@ -626,5 +626,10 @@ continue
 
 ## 许可证
 
-Copyright (c) 2025 STMicroelectronics.
-All rights reserved.
+MIT License
+
+Copyright (c) 2025 Sky Flux
+
+详见 [LICENSE](LICENSE) 文件。
+
+**注意**: 本项目包含由 STM32CubeMX 和 STM32CubeIDE 生成的代码，这些代码受 STMicroelectronics 许可条款约束。启动文件和系统文件保留其原始的 STMicroelectronics 版权声明。
