@@ -14,6 +14,13 @@
   - 开发工作流
   - **注意：** 此文件在项目根目录，供 Claude Code 使用
 
+- **[DATASHEETS.md](DATASHEETS.md)** - 数据手册和参考资料指南
+  - STM32F103 中文数据手册获取
+  - STM32F103 中文参考手册
+  - Cortex-M3 中文技术手册
+  - 官方和社区资源链接
+  - 推荐学习路径
+
 - **[EXAMPLES.md](EXAMPLES.md)** - 代码示例
   - GPIO 输出（LED 闪烁）
   - GPIO 输入（按钮检测）

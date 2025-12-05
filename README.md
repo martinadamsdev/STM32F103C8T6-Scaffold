@@ -599,6 +599,7 @@ continue
 
 ### 详细文档 (docs/)
 - [文档索引](docs/README.md) - 📚 完整的文档导航
+- [数据手册指南](docs/DATASHEETS.md) - 📖 中英文手册获取途径和学习路径
 - [代码示例](docs/EXAMPLES.md) - GPIO、UART、定时器等示例代码
 - [故障排除](docs/TROUBLESHOOTING.md) - 常见问题和解决方案
 - [CLion 配置](docs/clion-setup.md) - CLion IDE 详细配置指南
