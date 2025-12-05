@@ -1,0 +1,87 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug STM32 (OpenOCD)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Debug/test32.elf",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/opt/homebrew/bin/arm-none-eabi-gdb",
+            "miDebuggerServerAddress": "localhost:3333",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Connect to OpenOCD",
+                    "text": "target extended-remote localhost:3333"
+                },
+                {
+                    "description": "Reset and halt target",
+                    "text": "monitor reset halt"
+                },
+                {
+                    "description": "Load program",
+                    "text": "load"
+                },
+                {
+                    "description": "Set breakpoint at main",
+                    "text": "break main"
+                }
+            ],
+            "preLaunchTask": "Build Debug",
+            "logging": {
+                "engineLogging": false
+            }
+        },
+        {
+            "name": "Debug STM32 (ST-Link - Windows)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Debug/test32.elf",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "arm-none-eabi-gdb.exe",
+            "miDebuggerServerAddress": "localhost:3333",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Connect to ST-Link GDB Server",
+                    "text": "target extended-remote localhost:3333"
+                },
+                {
+                    "description": "Reset and halt target",
+                    "text": "monitor reset halt"
+                },
+                {
+                    "description": "Load program",
+                    "text": "load"
+                },
+                {
+                    "description": "Set breakpoint at main",
+                    "text": "break main"
+                }
+            ],
+            "preLaunchTask": "Build Debug",
+            "logging": {
+                "engineLogging": false
+            }
+        }
+    ]
+}
