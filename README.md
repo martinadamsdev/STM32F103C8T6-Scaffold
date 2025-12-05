@@ -1,5 +1,12 @@
 # STM32F103C8T6 项目
 
+![License](https://img.shields.io/badge/license-ST-blue)
+![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey)
+![MCU](https://img.shields.io/badge/MCU-STM32F103C8T6-green)
+![Build](https://img.shields.io/badge/build-CMake-orange)
+![Cortex](https://img.shields.io/badge/core-Cortex--M3-red)
+![Language](https://img.shields.io/badge/language-C11%20%7C%20C%2B%2B20-yellow)
+
 基于 STM32F103C8T6 (Cortex-M3) 的嵌入式项目，使用 CMake 构建系统。
 
 ## 硬件规格
